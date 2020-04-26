@@ -9,6 +9,6 @@ public class AdditionOperation {
     private double num2;
 
     double calculate() {
-        return num1 + num2;
+        return num1 + num2; 
     }
 }
