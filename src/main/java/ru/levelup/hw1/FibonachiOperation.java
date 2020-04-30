@@ -1,12 +1,11 @@
 package ru.levelup.hw1;
 
 public class FibonachiOperation {
+    private int num1;
+
     public FibonachiOperation(int n1) {
         num1 = n1;
     }
-
-    private int num1;
-
     int[] calculate() {
         int[] f = new int[num1];
 

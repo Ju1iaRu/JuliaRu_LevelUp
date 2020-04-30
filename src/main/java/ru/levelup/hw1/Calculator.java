@@ -11,6 +11,7 @@ public class Calculator {
     }
 
     private void start() {
+
         Scanner in = new Scanner(System.in);
         System.out.print("Введите операцию сложения (+), вычитания (-), умножения (*), возведения в степень (^), факториал (!) или фибоначчи (f) : ");
         String operation = in.next();

@@ -9,7 +9,7 @@ public class FactorialOperation {
     double calculate() {
         int result = 1;
         for(int i = 1; i <= num1; i++) {
-            result = result * i;
+            result *= i;
         }
         return result;
     }
