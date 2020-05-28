@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllOperationsTestSuite">
+    <suite-files>
+        <suite-file path="ArithmeticTestSuite.xml"/>
+        <suite-file path="PositiveNegativeSuite.xml"/>
+        <suite-file path="TrigonometricTestSuite.xml"/>
+    </suite-files>
+</suite>

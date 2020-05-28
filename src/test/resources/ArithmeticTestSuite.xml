@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ArithmeticTestSuite">
+    <test name="ArithmeticTests">
+        <classes>
+            <class name="hw3.arithmeticOperations.SumTest"/>
+            <class name="hw3.arithmeticOperations.PowTest"/>
+            <class name="hw3.arithmeticOperations.SqrtTest"/>
+            <class name="hw3.arithmeticOperations.SubTest"/>
+            <class name="hw3.arithmeticOperations.MultiplyTest"/>
+            <class name="hw3.arithmeticOperations.DivTest"/>
+        </classes>
+    </test>
+</suite>

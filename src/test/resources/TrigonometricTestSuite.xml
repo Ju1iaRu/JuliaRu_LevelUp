@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrigonometricTestSuite">
+    <test name="TrigonometricTests">
+        <classes>
+            <class name="hw3.trigonometricOperations.CosTest"/>
+            <class name="hw3.trigonometricOperations.SinTest"/>
+            <class name="hw3.trigonometricOperations.TgTest"/>
+            <class name="hw3.trigonometricOperations.CtgTest"/>
+        </classes>
+    </test>
+</suite>
