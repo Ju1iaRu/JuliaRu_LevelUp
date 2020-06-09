@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -42,8 +41,6 @@ public abstract class AbstractBaseTest {
         wait.until(ExpectedConditions.titleContains("Входящие"));
         Assert.assertTrue(driver.getTitle().contains("Входящие"),  "Авторизация не пройдена");
         }
-
-
     @AfterMethod
     public void LogOut() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

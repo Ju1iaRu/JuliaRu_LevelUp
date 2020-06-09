@@ -2,7 +2,7 @@
 <suite name="MailDraft">
     <test name="MailDraft Test" >
         <classes>
-            <class name="hw4.MailDraftTest" />
+            <class name="hw5.exercises.DraftTest" />
         </classes>
     </test>
 </suite>

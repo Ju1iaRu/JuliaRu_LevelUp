@@ -2,7 +2,7 @@
 <suite name="MailFolder">
     <test name="MailFolder Test" >
         <classes>
-            <class name="hw4.MailFolderTest" />
+            <class name="hw5.exercises.FolderTest" />
         </classes>
     </test>
 </suite>

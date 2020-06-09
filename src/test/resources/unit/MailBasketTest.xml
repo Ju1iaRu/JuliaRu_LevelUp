@@ -2,7 +2,7 @@
 <suite name="MailBasket">
     <test name="MailBasket Test" >
         <classes>
-            <class name="hw4.MailBasketTest" />
+            <class name="hw5.exercises.BasketTest" />
         </classes>
     </test>
 </suite>
