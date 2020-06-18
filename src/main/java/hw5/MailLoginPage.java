@@ -17,6 +17,8 @@ public class MailLoginPage extends BasePage {
             private WebElement passwordLocator;
     @FindBy (id = "mailbox:submit")
             private WebElement loginButton;
+    @FindBy (xpath = "//a[@title='выход']")
+            private WebElement logOutButton;
 
     // Авторизация на почте
     public MailFoldersPage logIn(String username, String password) {
@@ -26,5 +28,9 @@ public class MailLoginPage extends BasePage {
         loginButton.click();
 
         return new MailFoldersPage(driver);
+    }
+    // Выход из почты
+    public void logOut(){
+        logOutButton.click();
     }
 }

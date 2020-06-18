@@ -1,6 +1,6 @@
 package hw5.exercises;
 
-import hw5.AbstractBaseTest;
+import hw6.AbstractBaseTest;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;

@@ -1,6 +1,6 @@
 package hw5.exercises;
 
-import hw5.AbstractBaseTest;
+import hw6.AbstractBaseTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import java.text.SimpleDateFormat;
