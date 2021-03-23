@@ -1,1 +1,1 @@
-# JuliaRubanik_LevelUp
+# LevelUp education (QA Automation, Java)
