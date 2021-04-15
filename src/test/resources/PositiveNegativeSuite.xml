@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PositiveNegativeSuite">
+    <test name="PositiveNegativeTests">
+        <classes>
+            <class name="hw3.positive_negative_Operations.PositiveTest"/>
+            <class name="hw3.positive_negative_Operations.NegativeTest"/>
+        </classes>
+    </test>
+</suite>
